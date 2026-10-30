@@ -1,0 +1,21 @@
+# Build and IDE output
+/target/
+/out/
+/build/
+.idea/
+.vscode/
+*.iml
+*.class
+.DS_Store
+# Local secrets and runtime data
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite*
+*.log
+*.bak
+/data/users.json
+/data/reports.json
+/uploads/
